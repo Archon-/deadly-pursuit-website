@@ -43,7 +43,7 @@
           width: 345px;
           height: 102px;
           background: url('deadly-pursuit-sprite.png') -257px 0px;
-          background-size: 1190px;
+          background-size: 869px;
           text-indent: -9999px;
           margin: 0px auto;
         }
@@ -51,8 +51,8 @@
         .car {
           width: 861px;
           height: 441px;
-          background: url('deadly-pursuit-sprite.png') -2px -101px;
-          background-size: 1199px;
+          background: url('deadly-pursuit-sprite.png') -2px -102px;
+          background-size: 869px;
           margin-top: 56px;
         }
 
@@ -72,6 +72,45 @@
         .article-content {
           padding: 25px;
           line-height: 24px;
+        }
+
+        #social-media {
+          position: relative;
+          text-align: center;
+        }
+
+        #social-media li {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          top: 0;
+        }
+
+        #social-media li, #social-media a {
+          width: 36px;
+          height: 33px;
+          display: inline-block;
+          background-size: 869px;
+        }
+
+        #twitter {
+          height: 30px;
+          background: url('deadly-pursuit-sprite.png') 0px 614px;
+        }
+
+        #instagram {
+          height: 30px;
+          background: url('deadly-pursuit-sprite.png') -109px 614px;
+        }
+
+        #facebook {
+          width: 33px;
+          background: url('deadly-pursuit-sprite.png') -72px 612px;
+        }
+
+        #youtube {
+          width: 33px;
+          background: url('deadly-pursuit-sprite.png') -36px 612px;
         }
 
         footer {
@@ -102,22 +141,39 @@
     <article class="pixelated">
       <div class="content-wrapper">
         <div class="article-content">
+          <h2>About the game</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut ex volutpat, ullamcorper lacus sed, tincidunt mauris. Nunc dolor sem, sollicitudin vehicula lorem eu, pulvinar vehicula leo. Proin molestie, tellus vitae tempor pulvinar, ligula ligula consectetur tortor, quis mattis magna turpis quis justo. Maecenas laoreet diam scelerisque est finibus, quis vulputate diam finibus. Praesent pellentesque eleifend posuere. Aliquam vel ultricies nunc. Fusce viverra tempus nisi in pretium. Donec eu mollis nibh, lacinia pulvinar odio. Nullam ultrices ligula vitae nibh eleifend finibus. Nullam dignissim est quis sagittis dignissim.</p>
           
           <p>Proin vestibulum consectetur nisl, id commodo sem ultrices sed. Quisque consectetur sollicitudin elit at molestie. Nunc vehicula lacus massa, id semper purus ultricies vitae. Duis ac neque eros. Proin elementum nisl tortor, eget interdum felis pulvinar eu. Ut hendrerit nulla ex, eu accumsan odio blandit eu. Proin fermentum mi eu dui dignissim euismod. Proin sollicitudin nibh eu odio luctus bibendum. Duis malesuada arcu a ipsum fringilla tristique. Nam neque mauris, tincidunt pharetra consectetur vel, sagittis vel orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tempor hendrerit massa, vitae egestas est sodales sed. Etiam sit amet purus ullamcorper turpis porttitor sodales ornare eu justo. Pellentesque feugiat leo eu hendrerit suscipit.</p>
 
+          <h2>More adventure...</h2>
           <p>Sed maximus viverra velit, vitae vulputate est auctor id. Etiam ligula sem, blandit eu velit non, dapibus venenatis nunc. Sed iaculis eget ligula eu maximus. Suspendisse potenti. Quisque vitae lectus odio. Curabitur cursus sit amet dolor ut mattis. Ut dignissim purus molestie sollicitudin eleifend. Cras eget vehicula est, a accumsan dolor. Aenean ullamcorper mattis metus, sed scelerisque dolor sagittis at.</p>
 
           <p>Nullam id placerat dolor. Integer magna quam, commodo non rutrum vitae, consectetur nec turpis. Donec ac dictum ante. Nam a elit augue. Mauris eu erat sit amet erat interdum dictum. Donec aliquet, odio faucibus ornare pulvinar, erat quam consectetur quam, sed suscipit orci magna at nibh. Ut turpis augue, malesuada sit amet sem et, fermentum feugiat nisi. Aenean porta et arcu consectetur ultrices. Cras aliquam tincidunt vulputate. In ultricies tortor eget ex venenatis scelerisque. Mauris eleifend consequat leo, quis iaculis mi fringilla rhoncus. Fusce non nisl id enim tempus mollis id a risus. Duis ipsum nulla, malesuada ac justo quis, tincidunt tempus velit. Donec auctor leo id sodales sodales. Pellentesque mattis nec tortor sed consequat.</p>
 
-          <p>Cras dignissim lorem id gravida luctus. Maecenas nec fringilla massa, vitae vulputate nunc. Phasellus in gravida lorem. Fusce varius sit amet velit at eleifend. Nulla dapibus congue lorem eu ultricies. Morbi mi leo, sollicitudin sed mattis sit amet, sodales non felis. Praesent ut consequat sem.</p>
+          <h2>Let's stay in touch</h2>
+          <p>Follow us on your social media channel of choice to receive updates about Deadly Pursuit game.</p>
+          <ul id="social-media">
+              <li id="twitter">
+                <a href="http://twitter.com/deadlypursui"></a>
+              </li>
+              <li id="instagram">
+                <a href="http://instagram.com/deadlypursuit"></a>
+              </li>
+              <li id="facebook">
+                <a href="http://facebook.com/deadlypursuit"></a>
+              </li>
+              <li id="youtube">
+                <a href="http://youtube.com"></a>
+              </li>
+            </ul>
         </div>
       </div>  
     </article>
     <footer>
       <div class="footer-content">
         <p>Deadly Pursuit brough to you by Archon from Potions Lab.</p>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAYAAAHX+zV6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGx2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDctMjJUMTI6NTg6MDkrMDI6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZTFlYjZlY2QtYWQ0NS00NDQ5LThjZjAtNjkzMjAxYTc1ZWQzIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Nzc2YWY4ZmItMjkxZS0wNDRmLTkxMDAtODJhMWI5MGQyZThjIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YjEzNTY5OGEtMjE4MC0zYTQyLWI1ZTYtZjRmZjBiOGNlZmIzIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpiMTM1Njk4YS0yMTgwLTNhNDItYjVlNi1mNGZmMGI4Y2VmYjMiIHN0RXZ0OndoZW49IjIwMTgtMDctMjJUMTI6NTg6MDkrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmUxZWI2ZWNkLWFkNDUtNDQ0OS04Y2YwLTY5MzIwMWE3NWVkMyIgc3RFdnQ6d2hlbj0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjljYWMwMWFiLTZkNjgtZWI0ZS05M2IzLWYwNTVmNWRjNDQyZTwvcmRmOmxpPiA8cmRmOmxpPnhtcC5kaWQ6NzkwNjU1YWMtMmRjOC1iOTRjLTg3MjEtNDBiNWFjZDgzY2ZiPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rt0FYAAAAYVJREFUOI2VlDFu40AMRR8NlaMmSG+18gXSyJDLDZAj7CK5ieWbLLCHSGvAd3At98E2mp4pLE44E6nIBwTNcEgO/yclVJWu7VVV2XDHCUC6tifUQeMURVQVsw4AFXAEQFWZswy2lq7ttdk2fPz/ACBOEVFV9rsDgAJyuZ6xUC2LSMiqApDfv17VJ974TagDVZyizLeQ1Q/w5/ktbf69/xVbV/7W8TaeZoonbzcSQ1mmcx6ka3sFCHXIPOIUv3hdrmfxB/a4oLzw/e5gm7t2fKnDfnfQZtvQbBuMeirYOQ0Al+s5EcgyLK03zpBpYU5GNzuccQSoQh14fHg8WqM87VCH700vUZXieCXjFKlCHQRQfwCpBVJOn4dAIZSnOCuaYbyN+P6lOtcIjLdx7egbFtVwt538e6kKWKCz1EHsI77bj2WylGQluESWjHlMTXmdp4ByCkpYC0MdbC3StX1KYPhpotQd60b5fS4Fl6gAiVNUy7rm6FGM7X0an59ezLj4t1ihIrb/BPlZ/mekZQSfAAAAAElFTkSuQmCC" alt="Potions Lab" class="pixelated" />
+        <a href="http://potionslab.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAYAAAHX+zV6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGx2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDctMjJUMTI6NTg6MDkrMDI6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ZTFlYjZlY2QtYWQ0NS00NDQ5LThjZjAtNjkzMjAxYTc1ZWQzIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Nzc2YWY4ZmItMjkxZS0wNDRmLTkxMDAtODJhMWI5MGQyZThjIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YjEzNTY5OGEtMjE4MC0zYTQyLWI1ZTYtZjRmZjBiOGNlZmIzIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpiMTM1Njk4YS0yMTgwLTNhNDItYjVlNi1mNGZmMGI4Y2VmYjMiIHN0RXZ0OndoZW49IjIwMTgtMDctMjJUMTI6NTg6MDkrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmUxZWI2ZWNkLWFkNDUtNDQ0OS04Y2YwLTY5MzIwMWE3NWVkMyIgc3RFdnQ6d2hlbj0iMjAxOC0wNy0yMlQxMjo1ODowOSswMjowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPHBob3Rvc2hvcDpEb2N1bWVudEFuY2VzdG9ycz4gPHJkZjpCYWc+IDxyZGY6bGk+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjljYWMwMWFiLTZkNjgtZWI0ZS05M2IzLWYwNTVmNWRjNDQyZTwvcmRmOmxpPiA8cmRmOmxpPnhtcC5kaWQ6NzkwNjU1YWMtMmRjOC1iOTRjLTg3MjEtNDBiNWFjZDgzY2ZiPC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rt0FYAAAAYVJREFUOI2VlDFu40AMRR8NlaMmSG+18gXSyJDLDZAj7CK5ieWbLLCHSGvAd3At98E2mp4pLE44E6nIBwTNcEgO/yclVJWu7VVV2XDHCUC6tifUQeMURVQVsw4AFXAEQFWZswy2lq7ttdk2fPz/ACBOEVFV9rsDgAJyuZ6xUC2LSMiqApDfv17VJ974TagDVZyizLeQ1Q/w5/ktbf69/xVbV/7W8TaeZoonbzcSQ1mmcx6ka3sFCHXIPOIUv3hdrmfxB/a4oLzw/e5gm7t2fKnDfnfQZtvQbBuMeirYOQ0Al+s5EcgyLK03zpBpYU5GNzuccQSoQh14fHg8WqM87VCH700vUZXieCXjFKlCHQRQfwCpBVJOn4dAIZSnOCuaYbyN+P6lOtcIjLdx7egbFtVwt538e6kKWKCz1EHsI77bj2WylGQluESWjHlMTXmdp4ByCkpYC0MdbC3StX1KYPhpotQd60b5fS4Fl6gAiVNUy7rm6FGM7X0an59ezLj4t1ihIrb/BPlZ/mekZQSfAAAAAElFTkSuQmCC" alt="Potions Lab" class="pixelated" /></a>
       </div>    
     </footer>  
   </body>
